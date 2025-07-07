@@ -10,7 +10,7 @@
         </div>
         <div class="flex-1">
           <h4 class="text-red-800 font-semibold text-sm mb-2">
-            ⚠️ Incompatibilidades Críticas
+            ⚠️ Critical Incompatibilities
           </h4>
           <ul class="text-red-700 text-sm space-y-1">
             <li v-for="error in pcStore.criticalIncompatibilities" :key="error" class="flex items-start">
@@ -21,7 +21,7 @@
         </div>
         <button @click="pcStore.toggleValidation()" 
                 class="text-red-500 hover:text-red-700 text-sm">
-          {{ pcStore.validationEnabled ? 'Desactivar validación' : 'Activar validación' }}
+          {{ pcStore.validationEnabled ? 'Disable validation' : 'Enable validation' }}
         </button>
       </div>
     </div>
@@ -36,7 +36,7 @@
         </div>
         <div class="flex-1">
           <h4 class="text-yellow-800 font-semibold text-sm mb-2">
-            ⚡ Advertencias de Compatibilidad
+            ⚡ Compatibility Warnings
           </h4>
           <ul class="text-yellow-700 text-sm space-y-1">
             <li v-for="warning in pcStore.minorWarnings" :key="warning" class="flex items-start">
@@ -47,7 +47,7 @@
         </div>
         <button @click="pcStore.toggleCompatibilityWarnings()" 
                 class="text-yellow-500 hover:text-yellow-700 text-sm">
-          Ocultar
+          Hide
         </button>
       </div>
     </div>
