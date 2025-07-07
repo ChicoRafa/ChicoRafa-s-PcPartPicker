@@ -1,0 +1,5 @@
+{
+  "/categories": "/categories",
+  "/components/:category": "/:category",
+  "/components/:category/:id": "/:category/:id"
+}

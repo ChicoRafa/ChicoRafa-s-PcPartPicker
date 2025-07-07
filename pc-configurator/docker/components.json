@@ -1,0 +1,403 @@
+{
+  "categories": [
+    {
+      "id": "cpu",
+      "name": "Processor",
+      "description": "Central processing unit",
+      "icon": "🖥️"
+    },
+    {
+      "id": "gpu",
+      "name": "Graphics Card",
+      "description": "Graphics processing unit",
+      "icon": "🎮"
+    },
+    {
+      "id": "ram",
+      "name": "RAM Memory",
+      "description": "Random access memory",
+      "icon": "💾"
+    },
+    {
+      "id": "motherboard",
+      "name": "Motherboard",
+      "description": "Main system board",
+      "icon": "🔧"
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "description": "Hard drive or SSD",
+      "icon": "💿"
+    },
+    {
+      "id": "psu",
+      "name": "Power Supply",
+      "description": "Power delivery unit",
+      "icon": "⚡"
+    },
+    {
+      "id": "case",
+      "name": "Case",
+      "description": "Computer chassis",
+      "icon": "📦"
+    },
+    {
+      "id": "cooler",
+      "name": "Cooling",
+      "description": "Cooling system",
+      "icon": "❄️"
+    }
+  ],
+  "cpu": [
+    {
+      "id": 1,
+      "name": "Intel Core i5-13400F",
+      "brand": "Intel",
+      "price": 189.99,
+      "socket": "LGA1700",
+      "cores": 10,
+      "threads": 16,
+      "baseClock": "2.5 GHz",
+      "boostClock": "4.6 GHz",
+      "tdp": 65,
+      "integratedGraphics": false,
+      "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=300&h=200&fit=crop",
+      "features": ["Gaming", "Productividad", "Eficiencia energética"]
+    },
+    {
+      "id": 2,
+      "name": "AMD Ryzen 5 7600X",
+      "brand": "AMD",
+      "price": 299.99,
+      "socket": "AM5",
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "4.7 GHz",
+      "boostClock": "5.3 GHz",
+      "tdp": 105,
+      "integratedGraphics": true,
+      "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=300&h=200&fit=crop",
+      "features": ["Gaming", "Overclocking", "Gráficos integrados"]
+    },
+    {
+      "id": 3,
+      "name": "Intel Core i7-13700K",
+      "brand": "Intel",
+      "price": 409.99,
+      "socket": "LGA1700",
+      "cores": 16,
+      "threads": 24,
+      "baseClock": "3.4 GHz",
+      "boostClock": "5.4 GHz",
+      "tdp": 125,
+      "integratedGraphics": true,
+      "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=300&h=200&fit=crop",
+      "features": ["Gaming Premium", "Streaming", "Creación de contenido"]
+    },
+    {
+      "id": 4,
+      "name": "AMD Ryzen 9 7900X",
+      "brand": "AMD",
+      "price": 549.99,
+      "socket": "AM5",
+      "cores": 12,
+      "threads": 24,
+      "baseClock": "4.7 GHz",
+      "boostClock": "5.6 GHz",
+      "tdp": 170,
+      "integratedGraphics": true,
+      "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=300&h=200&fit=crop",
+      "features": ["Gaming Extremo", "Workstation", "Multitarea pesada"]
+    }
+  ],
+  "gpu": [
+    {
+      "id": 1,
+      "name": "NVIDIA GeForce RTX 4060",
+      "brand": "NVIDIA",
+      "price": 329.99,
+      "memory": "8GB GDDR6",
+      "baseClock": "1830 MHz",
+      "boostClock": "2460 MHz",
+      "powerConsumption": 115,
+      "outputs": ["HDMI 2.1", "DisplayPort 1.4a"],
+      "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=300&h=200&fit=crop",
+      "features": ["Ray Tracing", "DLSS 3", "Gaming 1080p"]
+    },
+    {
+      "id": 2,
+      "name": "AMD Radeon RX 7600 XT",
+      "brand": "AMD",
+      "price": 329.99,
+      "memory": "16GB GDDR6",
+      "baseClock": "1755 MHz",
+      "boostClock": "2755 MHz",
+      "powerConsumption": 190,
+      "outputs": ["HDMI 2.1", "DisplayPort 2.1"],
+      "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=300&h=200&fit=crop",
+      "features": ["FSR 3", "Gaming 1440p", "Más VRAM"]
+    },
+    {
+      "id": 3,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "brand": "NVIDIA",
+      "price": 599.99,
+      "memory": "12GB GDDR6X",
+      "baseClock": "1980 MHz",
+      "boostClock": "2475 MHz",
+      "powerConsumption": 220,
+      "outputs": ["HDMI 2.1", "DisplayPort 1.4a"],
+      "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=300&h=200&fit=crop",
+      "features": ["Ray Tracing", "DLSS 3", "Gaming 1440p"]
+    },
+    {
+      "id": 4,
+      "name": "AMD Radeon RX 7800 XT",
+      "brand": "AMD",
+      "price": 499.99,
+      "memory": "16GB GDDR6",
+      "baseClock": "1295 MHz",
+      "boostClock": "2430 MHz",
+      "powerConsumption": 263,
+      "outputs": ["HDMI 2.1", "DisplayPort 2.1"],
+      "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=300&h=200&fit=crop",
+      "features": ["FSR 3", "Gaming 1440p", "Excelente relación calidad-precio"]
+    }
+  ],
+  "ram": [
+    {
+      "id": 1,
+      "name": "Corsair Vengeance LPX 16GB DDR4",
+      "brand": "Corsair",
+      "price": 59.99,
+      "capacity": "16GB",
+      "type": "DDR4",
+      "speed": "3200MHz",
+      "modules": 2,
+      "timing": "16-18-18-36",
+      "voltage": "1.35V",
+      "image": "https://images.unsplash.com/photo-1562408590-e32931084e23?w=300&h=200&fit=crop",
+      "features": ["Dual Channel", "Gaming", "Bajo perfil"]
+    },
+    {
+      "id": 2,
+      "name": "G.Skill Trident Z5 RGB 32GB DDR5",
+      "brand": "G.Skill",
+      "price": 149.99,
+      "capacity": "32GB",
+      "type": "DDR5",
+      "speed": "5600MHz",
+      "modules": 2,
+      "timing": "36-36-36-76",
+      "voltage": "1.25V",
+      "image": "https://images.unsplash.com/photo-1562408590-e32931084e23?w=300&h=200&fit=crop",
+      "features": ["RGB", "Alta velocidad", "Overclocking"]
+    },
+    {
+      "id": 3,
+      "name": "Kingston Fury Beast 32GB DDR4",
+      "brand": "Kingston",
+      "price": 89.99,
+      "capacity": "32GB",
+      "type": "DDR4",
+      "speed": "3200MHz",
+      "modules": 2,
+      "timing": "16-18-18-36",
+      "voltage": "1.35V",
+      "image": "https://images.unsplash.com/photo-1562408590-e32931084e23?w=300&h=200&fit=crop",
+      "features": ["Dual Channel", "Disipador", "Confiabilidad"]
+    },
+    {
+      "id": 4,
+      "name": "Corsair Dominator Platinum RGB 64GB DDR5",
+      "brand": "Corsair",
+      "price": 399.99,
+      "capacity": "64GB",
+      "type": "DDR5",
+      "speed": "5200MHz",
+      "modules": 2,
+      "timing": "40-40-40-77",
+      "voltage": "1.25V",
+      "image": "https://images.unsplash.com/photo-1562408590-e32931084e23?w=300&h=200&fit=crop",
+      "features": ["RGB Premium", "Disipador DHX", "Workstation"]
+    }
+  ],
+  "motherboard": [
+    {
+      "id": 1,
+      "name": "ASUS PRIME B660M-A",
+      "brand": "ASUS",
+      "price": 89.99,
+      "socket": "LGA1700",
+      "chipset": "B660",
+      "formFactor": "Micro-ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB",
+      "ramType": "DDR4",
+      "features": ["PCIe 4.0", "USB 3.2", "SATA 6Gb/s"],
+      "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=300&h=200&fit=crop"
+    },
+    {
+      "id": 2,
+      "name": "MSI MAG B550 TOMAHAWK",
+      "brand": "MSI",
+      "price": 149.99,
+      "socket": "AM4",
+      "chipset": "B550",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB",
+      "ramType": "DDR4",
+      "features": ["PCIe 4.0", "WiFi 6", "RGB Mystic Light"],
+      "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=300&h=200&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "ASUS ROG STRIX B650E-F",
+      "brand": "ASUS",
+      "price": 279.99,
+      "socket": "AM5",
+      "chipset": "B650E",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB",
+      "ramType": "DDR5",
+      "features": ["PCIe 5.0", "WiFi 6E", "AURA Sync RGB"],
+      "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=300&h=200&fit=crop"
+    }
+  ],
+  "storage": [
+    {
+      "id": 1,
+      "name": "Samsung 980 PRO 1TB",
+      "brand": "Samsung",
+      "price": 89.99,
+      "capacity": "1TB",
+      "type": "NVMe SSD",
+      "interface": "PCIe 4.0",
+      "readSpeed": "7000 MB/s",
+      "writeSpeed": "5000 MB/s",
+      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=300&h=200&fit=crop",
+      "features": ["PCIe 4.0", "Alta velocidad", "Gaming"]
+    },
+    {
+      "id": 2,
+      "name": "WD Black SN770 2TB",
+      "brand": "Western Digital",
+      "price": 149.99,
+      "capacity": "2TB",
+      "type": "NVMe SSD",
+      "interface": "PCIe 4.0",
+      "readSpeed": "5150 MB/s",
+      "writeSpeed": "4900 MB/s",
+      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=300&h=200&fit=crop",
+      "features": ["Gaming", "Gran capacidad", "Sin disipador"]
+    },
+    {
+      "id": 3,
+      "name": "Seagate Barracuda 4TB",
+      "brand": "Seagate",
+      "price": 89.99,
+      "capacity": "4TB",
+      "type": "HDD",
+      "interface": "SATA III",
+      "readSpeed": "190 MB/s",
+      "writeSpeed": "190 MB/s",
+      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=300&h=200&fit=crop",
+      "features": ["Almacenamiento masivo", "Económico", "Confiable"]
+    }
+  ],
+  "psu": [
+    {
+      "id": 1,
+      "name": "Corsair RM750x",
+      "brand": "Corsair",
+      "price": 119.99,
+      "wattage": 750,
+      "efficiency": "80+ Gold",
+      "modular": "Full",
+      "fanless": false,
+      "image": "https://images.unsplash.com/photo-1589362760720-0e9e9ac5c6de?w=300&h=200&fit=crop",
+      "features": ["Modular", "Silenciosa", "10 años garantía"]
+    },
+    {
+      "id": 2,
+      "name": "Seasonic Focus GX-850",
+      "brand": "Seasonic",
+      "price": 139.99,
+      "wattage": 850,
+      "efficiency": "80+ Gold",
+      "modular": "Full",
+      "fanless": false,
+      "image": "https://images.unsplash.com/photo-1589362760720-0e9e9ac5c6de?w=300&h=200&fit=crop",
+      "features": ["Hybrid fan", "Modular", "Japoneses capacitors"]
+    }
+  ],
+  "case": [
+    {
+      "id": 1,
+      "name": "Fractal Design Define 7",
+      "brand": "Fractal Design",
+      "price": 169.99,
+      "type": "Mid Tower",
+      "color": "Negro",
+      "sidePanel": "Vidrio templado",
+      "preFans": 3,
+      "maxFans": 9,
+      "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=300&h=200&fit=crop",
+      "features": ["Silenciosa", "Modular", "Filtros anti-polvo"]
+    },
+    {
+      "id": 2,
+      "name": "NZXT H7 Flow",
+      "brand": "NZXT",
+      "price": 129.99,
+      "type": "Mid Tower",
+      "color": "Blanco",
+      "sidePanel": "Vidrio templado",
+      "preFans": 3,
+      "maxFans": 7,
+      "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=300&h=200&fit=crop",
+      "features": ["RGB", "Flujo de aire", "Construcción premium"]
+    }
+  ],
+  "cooler": [
+    {
+      "id": 1,
+      "name": "Cooler Master Hyper 212 RGB",
+      "brand": "Cooler Master",
+      "price": 39.99,
+      "type": "Torre",
+      "height": "158.5mm",
+      "tdp": 150,
+      "sockets": ["LGA1700", "AM4", "AM5"],
+      "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=300&h=200&fit=crop",
+      "features": ["RGB", "Económico", "Fácil instalación"]
+    },
+    {
+      "id": 2,
+      "name": "Noctua NH-D15",
+      "brand": "Noctua",
+      "price": 99.99,
+      "type": "Torre Dual",
+      "height": "165mm",
+      "tdp": 220,
+      "sockets": ["LGA1700", "AM4", "AM5"],
+      "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=300&h=200&fit=crop",
+      "features": ["Ultra silencioso", "Rendimiento extremo", "6 años garantía"]
+    },
+    {
+      "id": 3,
+      "name": "Corsair iCUE H100i RGB",
+      "brand": "Corsair",
+      "price": 129.99,
+      "type": "Líquida AIO",
+      "radiator": "240mm",
+      "tdp": 250,
+      "sockets": ["LGA1700", "AM4", "AM5"],
+      "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=300&h=200&fit=crop",
+      "features": ["RGB", "Refrigeración líquida", "Software iCUE"]
+    }
+  ]
+}
