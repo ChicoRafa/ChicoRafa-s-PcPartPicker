@@ -341,12 +341,12 @@
       "brand": "Fractal Design",
       "price": 169.99,
       "type": "Mid Tower",
-      "color": "Negro",
-      "sidePanel": "Vidrio templado",
+      "color": "Black",
+      "sidePanel": "Tempered Glass",
       "preFans": 3,
       "maxFans": 9,
       "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=300&h=200&fit=crop",
-      "features": ["Silenciosa", "Modular", "Filtros anti-polvo"]
+      "features": ["Silent", "Modular", "Dust Filters"]
     },
     {
       "id": 2,
@@ -354,12 +354,12 @@
       "brand": "NZXT",
       "price": 129.99,
       "type": "Mid Tower",
-      "color": "Blanco",
-      "sidePanel": "Vidrio templado",
+      "color": "White",
+      "sidePanel": "Tempered Glass",
       "preFans": 3,
       "maxFans": 7,
       "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=300&h=200&fit=crop",
-      "features": ["RGB", "Flujo de aire", "Construcción premium"]
+      "features": ["RGB", "Airflow", "Premium Build"]
     }
   ],
   "cooler": [
@@ -368,12 +368,12 @@
       "name": "Cooler Master Hyper 212 RGB",
       "brand": "Cooler Master",
       "price": 39.99,
-      "type": "Torre",
+      "type": "Tower",
       "height": "158.5mm",
       "tdp": 150,
       "sockets": ["LGA1700", "AM4", "AM5"],
       "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=300&h=200&fit=crop",
-      "features": ["RGB", "Económico", "Fácil instalación"]
+      "features": ["RGB", "Affordable", "Easy Installation"]
     },
     {
       "id": 2,
